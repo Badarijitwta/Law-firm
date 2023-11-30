@@ -17,7 +17,11 @@ function Navbar({ children }) {
       {children ? (
         <button id="contact">Contact Now</button>
       ) : (
-        <img src="Group 90.png" style={{ height: "30px", width: "187px" }} />
+        <img
+          src="Group 90.png"
+          style={{ height: "30px", width: "187px" }}
+          alt="Iconstray"
+        />
       )}
     </div>
   );
