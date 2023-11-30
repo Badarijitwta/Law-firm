@@ -1,0 +1,40 @@
+.input-wrapper #mes-icon {
+  height: 22px;
+  width: 22px;
+  margin-left: 20px;
+}
+
+.input-wrapper {
+  background-color: #ffffff15;
+  display: flex;
+  height: 74px;
+  width: 438px;
+  align-items: center;
+  border-radius: 43px;
+  /* color: #ffffff15; */
+
+}
+
+.input-wrapper input {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+
+}
+
+.input-wrapper input:focus {
+  outline: none;
+}
+
+.input-wrapper button {
+  justify-content: space-around;
+  margin-left: 15px;
+  border-radius: 43px;
+  width: 137px;
+  height: 65px;
+  font-weight: 600;
+  background-color: #E3B748;
+  outline: none;
+}

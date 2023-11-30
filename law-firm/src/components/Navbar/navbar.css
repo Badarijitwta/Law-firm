@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  color: var(--color-white);
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 3rem;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+  width: 30px
+}
+
+.logo h4 {
+  margin-left: 6px;
+}
+
+.header-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 27rem;
+  font-size: 1rem;
+  line-height: 26px;
+  align-items: center;
+  font-weight: 600;
+}
+
+#contact {
+  background-color: transparent;
+  border: 1px solid white;
+  color: var(--color-white);
+  width: 172px;
+  height: 47px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+}

@@ -1,0 +1,50 @@
+.parent-sub {
+  display: flex;
+  background-color: #47474780;
+  width: 1245px;
+  height: 356px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-sub h2 {
+  color: var(--color-white);
+  font-size: 55px;
+  font-weight: 500;
+  font-family: Helvetica;
+}
+
+.input-cont-sub {
+  margin-top: 15px;
+  height: 53px;
+  background-color: transparent;
+  display: flex;
+  width: 686px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.input-cont-sub input {
+  outline: none;
+  flex: 1;
+  font-style: italic;
+  margin-right: 10px;
+}
+
+.input-cont-sub button {
+  height: 53px;
+  width: 116px;
+  border-radius: 0 8px 8px 0;
+  background-color: #E3B748;
+  outline: none;
+}
+
+.input-cont-sub button :focus {
+  outline: none;
+}
+
+.input-cont-sub #name {
+  border-radius: 8px 0 0 8px;
+}

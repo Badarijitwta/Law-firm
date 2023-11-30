@@ -1,0 +1,44 @@
+.hero-section {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.hero-section img {
+  height: 544px;
+  width: 467px;
+  /* border: 1px solid red; */
+
+}
+
+.textcontainer {
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  flex: 1;
+  align-items: flex-start;
+  margin-left: 8px;
+  margin-top: 20px;
+}
+
+.head {
+  font-size: 66px;
+  font-weight: 400;
+  line-height: 98px;
+  margin-left: 0;
+  text-align: left;
+}
+
+.text {
+  text-align: start;
+  padding: 2rem 13rem 2rem 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffff;
+  opacity: 30%;
+}
